@@ -100,7 +100,7 @@
         
           var path;
           var rawText = $("#textInput").val();
-          $.get("http://18.116.13.124:5000/get", { msg: rawText }).done(function(data) {
+          $.get("http://52.14.130.186:5000/get", { msg: rawText }).done(function(data) {
             console.log(data.startsWith("https:"));
             if(data.startsWith("https:"))
             {
